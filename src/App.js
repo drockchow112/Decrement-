@@ -5,8 +5,14 @@ import Decrement from "./Decrement"
 
 function App() {
   return (
-    <Decrement counter= {10}/>
+    <div className = "decContainer">
+      <Decrement counter={10} />
+      <Decrement counter={20} />
+      <Decrement counter={100} />
+    </div>
   );
 }
+
+
 
 export default App;
