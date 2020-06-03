@@ -39,7 +39,7 @@ class Decrement extends Component {
 }
 
 Decrement.propTypes = {
-    counter: PropTypes.number
+    counter: PropTypes.number.isRequired
 }
 
 export default Decrement; 
